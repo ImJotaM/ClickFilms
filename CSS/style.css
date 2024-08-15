@@ -1,0 +1,122 @@
+/* Custom Fonts */
+/* --------------------------------------------------------------- */
+
+@font-face {
+    font-family: 'Michroma';
+    src: url('../Assets/Fonts/Michroma-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fnt-michroma-regular {
+    font-family: "Michroma", sans-serif;
+}
+
+/* --------------------------------------------------------------- */
+/* Custom Fonts End */
+
+
+/* Custom Colors */
+/* --------------------------------------------------------------- */
+:root {
+    
+    --color-blue-1: #042C49;
+    --color-blue-2: #033960;
+    --color-blue-3: #0452a0b9;
+    --color-blue-4: #0452a0;
+}
+
+.bg-clr-blue-1 {
+    background-color: var(--color-blue-1);
+}
+.bg-clr-blue-2 {
+    background-color: var(--color-blue-2);
+}
+.bg-clr-blue-3 {
+    background-color: var(--color-blue-3);
+}
+.bg-clr-blue-4 {
+    background-color: var(--color-blue-4);
+}
+
+.clr-gradient-1 {
+    background-image: linear-gradient(90deg, var(--color-blue-1), var(--color-blue-2));
+}
+
+/* --------------------------------------------------------------- */
+/* Custom Colors End */
+
+
+/* Navbar Nav */
+/* --------------------------------------------------------------- */
+
+.custom-nav-item:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+/* --------------------------------------------------------------- */
+/* Navbar Nav */
+
+
+/* Search Bar */
+/* --------------------------------------------------------------- */
+
+.custom-search-conteiner {
+    width: 20%;
+    min-width: 250px;
+}
+
+.custom-search {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    padding: 0 15px 2px;
+}
+
+.custom-search::placeholder {
+    color: white;
+    padding-left: 5px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.custom-search:focus::placeholder {
+    transform: translateX(20px);
+    opacity: 0;
+}
+
+.custom-search::-webkit-search-cancel-button {
+    appearance: none;
+}
+
+/* --------------------------------------------------------------- */
+/* Search Bar End */
+
+
+/* Drop Down */
+/* --------------------------------------------------------------- */
+
+.custom-dropdown-button {
+    background-color: transparent;
+}
+
+.custom-dropdown-button:hover, .custom-dropdown-button:active {
+    background-color: #0452a0;
+}
+
+.custom-dropdown-box {
+    background-color: var(--color-blue-2);
+}
+
+.custom-dropdown-item:hover {
+    background-color: var(--color-blue-3);
+    transition: 0.3s;
+}
+
+/* --------------------------------------------------------------- */
+/* Drop Down End */
